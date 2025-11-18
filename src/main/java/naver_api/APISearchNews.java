@@ -9,6 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
+// NaverAPI Open Sauce
 public class APISearchNews {
 
 	public static void main(String[] args) {

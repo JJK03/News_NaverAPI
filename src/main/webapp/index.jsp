@@ -6,11 +6,11 @@
         html, body {
             height: 100%;
             margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 윈도우 기본 폰트인 Segoe UI를 fallback(대체)을 위한 폰트 나열 */
             background-color: #f7f9fc;
             display: flex;
             justify-content: center;
-            align-items: flex-start; /* 위쪽으로 정렬 */
+            align-items: flex-start;
         }
 
         .container {
@@ -21,13 +21,13 @@
             text-align: center;
             width: 500px;
             max-width: 90%;
-            margin-top: 15%; /* 화면 위에서 1/4 정도 위치 */
+            margin-top: 15%;
         }
 
         h2 {
             margin-bottom: 30px;
             color: #333;
-        }
+        } /* 제목 */
 
         input[type=text] {
             padding: 15px 20px;
@@ -50,19 +50,14 @@
 		    border-radius: 10px;
 		    background-color: #4CAF50;
 		    color: white;
-		    cursor: pointer;
+		    cursor: pointer; 
 		    transition: background-color 0.3s, transform 0.2s;
 		}
 
         button:hover {
             background-color: #45a049;
             transform: translateY(-2px);
-        }
-
-        @media (max-width: 600px) {
-            input[type=text] { width: 100%; }
-            .container { padding: 30px 20px; }
-        }
+        } /* 마우스 갖다댈시 transition, 더 나은 UX를 위한 UI... */ 
     </style>
 </head>
 <body>
