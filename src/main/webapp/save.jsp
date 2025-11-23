@@ -65,7 +65,7 @@
                 + "id INT AUTO_INCREMENT PRIMARY KEY, "
                 + "title VARCHAR(255) NOT NULL, "
                 + "description TEXT, "
-                + "link VARCHAR(2000) NOT NULL UNIQUE, "
+                + "link VARCHAR(700) NOT NULL UNIQUE, "
                 + "press VARCHAR(100), "
                 + "pub_date DATETIME, "
                 + "saved_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
